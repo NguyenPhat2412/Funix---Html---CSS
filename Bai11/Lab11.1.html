@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link
+      rel="stylesheet"
+      href="Lab11.1.css
+  "
+    />
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Customer Feedback Survey</h1>
+      <p id="description">
+        We value your feedback! Please fill out this survey to help us improve.
+      </p>
+    </header>
+    <main>
+      <form id="survey-form">
+        <!-- Name -->
+        <label id="name-label" for="name">Name:</label>
+        <input id="name" type="text" placeholder="Enter your name" required />
+        <label id="email-label" for="email">Email:</label>
+        <input
+          id="email"
+          type="email"
+          placeholder="Enter your email"
+          required
+        />
+        <label id="number-label" for="number">Age:</label>
+        <input
+          id="number"
+          type="number"
+          placeholder="Enter your age"
+          min="10"
+          max="100"
+        />
+
+        <label for="dropdown">What is your favorite type of food?</label>
+        <select id="dropdown" required>
+          <option value="pizza">Pizza</option>
+          <option value="sushi">Sushi</option>
+          <option value="pasta">Pasta</option>
+          <option value="salad">Salad</option>
+        </select>
+
+        <p>How often do you eat out?</p>
+        <label>
+          <input type="radio" name="frequency" value="often" required /> Often
+        </label>
+        <label>
+          <input type="radio" name="frequency" value="sometimes" /> Sometimes
+        </label>
+        <label>
+          <input type="radio" name="frequency" value="rarely" /> Rarely
+        </label>
+
+        <p>What do you like most about dining out? (Select all that apply)</p>
+        <label>
+          <input type="checkbox" name="preferences" value="ambiance" /> Ambiance
+        </label>
+        <label>
+          <input type="checkbox" name="preferences" value="food" /> Food
+        </label>
+        <label>
+          <input type="checkbox" name="preferences" value="service" /> Service
+        </label>
+
+        <label for="comments">Additional Comments:</label>
+        <textarea
+          id="comments"
+          rows="5"
+          placeholder="Share your thoughts..."
+        ></textarea>
+
+        <button id="submit" type="submit">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>

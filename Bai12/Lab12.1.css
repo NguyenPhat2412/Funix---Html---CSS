@@ -1,0 +1,56 @@
+.bg-img1 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url(...);
+}
+.bg-img2 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url(...);
+}
+.bg-img3 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url(...);
+}
+body {
+  margin: 0; /* Remove default body margin */
+}
+.navbar {
+  margin-bottom: 0; /* Remove space below navbar */
+}
+.carousel {
+  margin-top: 0; /* Remove space above carousel */
+  padding-top: 0; /* Ensure no padding above */
+}
+.carousel-item {
+  height: 50vh; /* Full viewport height */
+  background-size: cover;
+  background-position: center;
+}
+.bg-img1 {
+  background-image: url("https://via.placeholder.com/1920x1080?text=First+Slide");
+}
+.bg-img2 {
+  background-image: url("https://via.placeholder.com/1920x1080?text=Second+Slide");
+}
+.bg-img3 {
+  background-image: url("https://via.placeholder.com/1920x1080?text=Third+Slide");
+}
+.carousel-caption {
+  color: white;
+  text-align: left;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+footer {
+  position: absolute;
+  background-color: #f8f9fa;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  bottom: 0;
+  font-size: 14px;
+  color: #6c757d;
+}
